@@ -601,11 +601,6 @@ section {
   bottom: 0;
 }
 
-/* .portfolio-wrap {
-  background-color: white;
-  box-shadow: black;
-} */
-
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -613,6 +608,18 @@ section {
   content: " ";
   clear: both;
   height: 0;
+}
+
+.float-right{
+  float:right;
+}
+
+@media only screen and (max-width :998px) { 
+  
+  .portfolio.float-right{
+    float:none;
+  }
+
 }
 
 /*--------------------------------------------------------------
