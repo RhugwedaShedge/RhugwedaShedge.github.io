@@ -600,6 +600,11 @@ section {
   bottom: 0;
 }
 
+.portfolio-wrap {
+  border: solid 1px black;
+  background-color: white;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
