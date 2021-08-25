@@ -601,9 +601,18 @@ section {
 }
 
 /* .portfolio-wrap {
-  border: solid 1px black;
   background-color: white;
+  box-shadow: black;
 } */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details
