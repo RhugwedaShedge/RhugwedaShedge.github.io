@@ -601,7 +601,7 @@ section {
   bottom: 0;
 }
 
-.clearfix:after {
+.clearfix::after {
   visibility: hidden;
   display: block;
   font-size: 0;
